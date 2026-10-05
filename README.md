@@ -19,6 +19,7 @@ brew install cokistudios/tap/looping
 
 - `looping`: Looping C++ Native Engine & Compiler Subsystem (v2.5.0)
 - `ruuping`: High-performance Rust & Looping interop runner
+- `smiledev`: The package manager of looping. Get modules for Looping
 
 ## License
 
