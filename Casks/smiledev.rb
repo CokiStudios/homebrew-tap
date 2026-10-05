@@ -1,6 +1,6 @@
 cask "smiledev" do
   version "2.5.0"
-  sha256 "1ff3d001be3b39081153d8e95c27ecedd2bcf6244189b32f2ee398c4bb5a7dee"
+  sha256 "0799d384fef01410c72d0359ca2b548ab982f14d9b09fe92da93ed5da55f08e6"
 
   url "https://github.com/CokiStudios/cokistudios.github.io/releases/download/v2.5.0/looping-v2.5.0-darwin-universal.tar.gz"
   name "Smiledev Package Manager"
