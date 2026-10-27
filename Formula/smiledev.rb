@@ -1,11 +1,14 @@
 class Smiledev < Formula
-  desc "Official package manager for Looping and Loop OS ecosystem"
+  desc "Official package manager for Looping and Loop OS ecosystem (Commercial Production Release)"
   homepage "https://cokistudios.github.io"
-  version "2.5.0"
+  version "1.0.0-commercial"
+  version_scheme 1
   license "MIT"
 
-  url "https://github.com/CokiStudios/cokistudios.github.io/releases/download/v2.5.0/looping-v2.5.0-darwin-universal.tar.gz"
-  sha256 "8ad7ee7f7eb30114b92ea4252ecd3484c44d0ac197b9674480c769755d6c2a53"
+  url "https://repo.cokistudios.com/engine/looping-v1.0.0-commercial-darwin-universal.tar.gz"
+  mirror "https://github.com/CokiStudios/engine/releases/download/v1.0.0-commercial/looping-v1.0.0-commercial-darwin-universal.tar.gz"
+  mirror "https://github.com/CokiStudios/cokistudios.github.io/releases/download/v1.0.0-commercial/looping-v1.0.0-commercial-darwin-universal.tar.gz"
+  sha256 "f624ea73e11d919a5bc30187afabe7a0d1c6b03bdee888feace9650e4f990dbc"
 
   def install
     bin.install "smiledev"
