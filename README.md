@@ -1,25 +1,28 @@
 # homebrew-tap
 
-Official Homebrew Tap for **Coki Studios** and **Loop OS**.
+Official Homebrew Tap for **Coki Studios** and **Loop OS** (`Looping v1.1` • `Alpha! 1.1A` for `smiledev` • `Arch 3.0A`).
 
 ## Installation
 
 ```bash
 brew tap cokistudios/tap
-brew install looping
+brew install looping smiledev
 ```
 
-Or install directly in a single command:
+### Install Alpha! 1.1A for smiledev (Super Experimental)
 
 ```bash
-brew install cokistudios/tap/looping
+brew install cokistudios/tap/smiledev-alpha
+# or switch an existing installation to Alpha! 1.1A:
+smiledev upgrade --alpha
 ```
 
-## Included Binaries & Runtimes
+## Included Formulas & Runtimes
 
-- `looping`: Looping C++ Native Engine & Compiler Subsystem (v2.5.0)
-- `ruuping`: High-performance Rust & Looping interop runner
-- `smiledev`: The package manager of looping. Get modules for Looping
+- `looping` (`v1.1` / `Arch 3.0A`): Looping C++17 Native 2D/3D Engine, Metal 4, Persistent Terminal (`-i`) & Compiler
+- `ruuping`: High-performance Looping interop symlink
+- `smiledev` (`v1.1`): Official Universal Package Manager for Looping
+- `smiledev-alpha` (`Alpha! 1.1A`): Super Experimental channel build for `smiledev`
 
 ## License
 

@@ -1,10 +1,10 @@
 cask "looping" do
-  version "2.5.0"
-  sha256 "8ad7ee7f7eb30114b92ea4252ecd3484c44d0ac197b9674480c769755d6c2a53"
+  version "1.1"
+  sha256 "6494f61686a699aab2715b3ed9cca3778a7dd5cd35ab4859d5fbf7f4d2193b7d"
 
-  url "https://github.com/CokiStudios/cokistudios.github.io/releases/download/v2.5.0/looping-v2.5.0-darwin-universal.tar.gz"
+  url "https://repo.cokistudios.com/engine/looping-v1.1-darwin-universal.tar.gz"
   name "Looping Engine"
-  desc "Dual hybrid high-performance engine and programming language for Loop OS"
+  desc "Dual hybrid high-performance 2D/3D engine and programming language (Prod v1.1 / Arch 3.0A)"
   homepage "https://cokistudios.github.io"
 
   binary "looping"
